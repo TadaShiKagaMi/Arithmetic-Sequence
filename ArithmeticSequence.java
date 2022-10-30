@@ -5,13 +5,13 @@ class ArithmeticSequence {
         try (Scanner myObj = new Scanner(System.in)) {
             {
                 System.out.println("d = Common difference: ");
-                int d = myObj.nextInt(); // 2 // difference
+                int d = myObj.nextInt(); // common difference
 
                 System.out.println("n = Order of the number: ");
-                int n = myObj.nextInt(); // 10 // n terms
+                int n = myObj.nextInt(); // number of terms
 
                 System.out.println("a = 1st term in the sequence: ");
-                int a = myObj.nextInt(); // 1 // first term
+                int a = myObj.nextInt(); // first term
 
                 System.out.println("Arithmetic Sequence till " + n + "th term: ");
 
